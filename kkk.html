@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
     <div class="container">
-        <div class="tittle">Welcome to My Website</div>
-        <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad blanditiis similique deleniti porro sequi, asperiores, ipsum aut tempora at consequuntur maiores laboriosam dolore minima facilis, natus iure suscipit commodi nihil.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni natus unde nisi reiciendis soluta itaque, cum eum atque vero, magnam consequuntur quaerat repellat error saepe deleniti porro dignissimos illo?
-            </p>
-        </div>
+        <h2 class="title">CREATE ACCOUNT</h2>
+        <form action="login.php">
+            <input type="text" class="input-field" name="username" id="username" placeholder="Your Name">
+            <input type="password" class="input-field" name="password" id="password" placeholder="Your Email">
+            <input type="password" class="input-field" name="confirm_password" id="confirm_password" placeholder="Password">
+             <input type="password" class="input-field" name="repeat_password" id="repeat_password" placeholder="Repeat Password">
+             <input type = "checkbox" class= "radio" name="checkbox" id="checkbox"> <label for = "s">I agree all statement of service</label>
+            <button type="submit" class="btn-create">SIGN UP</button> 
+            <p class="terms">Have already an account?<a href="#">Login here</a></p>
+        </form>
     </div>
 </body>
 </html>
